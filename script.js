@@ -1,4 +1,8 @@
 
+
+// function using Math.random get a computer choice. 0 represents rock,
+// 1 is paper and 2 is scissors
+
 function computerChoice() {
     compChoice = Math.floor(Math.random()*3);
    
@@ -12,10 +16,7 @@ function computerChoice() {
 };
 
 
-
-
-
-
+// Plays one round of rock paper,scissors
 function playRound(playChoice, compChoice){
    
 
@@ -43,6 +44,7 @@ function playRound(playChoice, compChoice){
 
 }
 
+//Function to play 5 rounds of rock paper scissors
 function game(){
     let playerSelection = prompt('Make a selction: ');
     computerSelection = computerChoice();

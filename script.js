@@ -50,7 +50,8 @@ function game(){
     computerSelection = computerChoice();
     let result = playRound(playerSelection, computerSelection);
     console.log(result);
+    document.getElementById("rock").innerHTML = result;
 }
-for(let i =0; i <6; i++){
+for(let i =0; i <3; i++){
     game()
 }

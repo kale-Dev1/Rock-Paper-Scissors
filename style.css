@@ -1,0 +1,14 @@
+.container{
+    background-color: #f3e5abe6;
+    text-align: center;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+h1{
+color:black;
+}

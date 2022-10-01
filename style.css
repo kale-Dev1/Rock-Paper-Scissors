@@ -1,12 +1,15 @@
-.container{
+.containerBody{
     background-color: #f3e5abe6;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding-bottom: 50%;
 }
 .container1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 
 }
 h1{
